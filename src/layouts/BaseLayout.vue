@@ -5,7 +5,7 @@
       <slot />
     </main>
     <footer class="bg-gray-100 text-center text-sm text-gray-500 py-4">
-      © 2025 ReportWeb. All rights reserved.
+      © 2025 푸드스트라다무스. All rights reserved.
     </footer>
   </div>
 </template>
