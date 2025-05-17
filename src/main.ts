@@ -1,6 +1,9 @@
-// src/main.js 또는 main.ts
-import { createApp } from 'vue'
-import App from './App.vue'
-import './assets/tailwind.css'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router'; // 📌 router/index.ts 파일이 있어야 합니다
+import './assets/tailwind.css';
 
-createApp(App).mount('#app')
+const app = createApp(App);
+
+app.use(router); // ✅ 라우터 연결
+app.mount('#app');
